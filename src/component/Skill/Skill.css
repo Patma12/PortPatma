@@ -8,7 +8,9 @@
     display: inline-flex;
 }
 .skill img:hover {
-    background-color: rgb(240, 228, 222);
+    background-color: white;
+    color: tomato;
+    box-shadow: 5px 5px 5px tomato;
 }
 
 /* .container-box {

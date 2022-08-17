@@ -84,6 +84,7 @@
 .content2:hover {
   background-color: white;
   color: tomato;
+  box-shadow: 5px 5px 5px tomato;
 
 }
 H3 {

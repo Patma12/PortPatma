@@ -64,7 +64,10 @@
   }
   
   .fa:hover {
-      opacity: 0.7;
+    background-color: white;
+    color: tomato;
+    box-shadow: 5px 5px 5px tomato;
+
   }
 
   .fa-button{
@@ -74,4 +77,11 @@
     text-align: center;
     text-decoration: none;
     margin: 15px 12px;
+  }
+
+  .fa-button:hover {
+    background-color: white;
+    color: tomato;
+    box-shadow: 5px 5px 5px tomato;
+
   }
