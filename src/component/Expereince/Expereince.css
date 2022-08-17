@@ -65,6 +65,13 @@
   align-content: flex-start;
 }
 
+.content p{
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+
 .content img{
   float: right;
   
@@ -73,13 +80,14 @@
 
 .content2 {
   padding: 10px 20px;
-  background-color: rgb(251, 238, 232);
+  background-color: white;
   position: relative;
   border-radius: 6px;
   width: 100%;
-  border: rgb(244, 134, 94) 1px double;
+  border: rgb(244, 134, 94) 5px double;
   align-content: flex-start;
   color: tomato;
+  
 }
 .content2:hover {
   background-color: white;

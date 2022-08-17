@@ -5,8 +5,9 @@ import Profile from '../Profile/Profile';
 import Education from '../Education/Education';
 import Skill from '../Skill/Skill';
 import Contact from '../Contact/Contact';
-import { Expereince } from '../Expereince/Expereince';
+import Expereinces from '../Expereince/Expereince';
 import Project from '../Project/Project';
+import Nav from '../Nav/Nav';
 
 
 
@@ -14,17 +15,7 @@ function App() {
   
   return (
     <div className="App">
-
-          {/* <BrowserRouter>
-              <Routes>
-                <Route path="/" element={<Layout />}>
-                  <Route index element={<Home />} />
-                  <Route path="blogs" element={<Blogs />} />
-                  <Route path="contact" element={<Contact />} />
-                  <Route path="*" element={<NoPage />} />
-                </Route>
-              </Routes>
-            </BrowserRouter> */}
+      <Nav />
       
         <Profile /> 
         <hr /><br />
@@ -35,7 +26,7 @@ function App() {
         <Skill />
         <br /><br />
         
-        <Expereince />
+        <Expereinces />
         {/* <br /><br />
         <Contact /> */}
     </div>  )

@@ -13,9 +13,9 @@ function Profile() {
                     <p>I'm a tech geek specializing in building (and occasionally designing) exceptional digital experiences. </p>
                     <p>“Life without knowledge is death in disguise.”  - Talib Kweli</p>
                     <a href=''><button className='fa-button'>get resume</button></a>
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="https://www.linkedin.com/in/patma-mataa-287672248/" class="fa fa-linkedin"></a>
-                    <a href="https://github.com/Patma12" class="fa fa-github"></a>
+                    <a href="#" className="fa fa-facebook"></a>
+                    <a href="https://www.linkedin.com/in/patma-mataa-287672248/" className="fa fa-linkedin"></a>
+                    <a href="https://github.com/Patma12" className="fa fa-github"></a>
                 </div>
                 <div className=''>
                     <img className='profile-image' src={patma}  alt="profile-image" />

@@ -1,0 +1,61 @@
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1100;
+    width:100%;
+    box-shadow: 10px 10px 10px rgb(240, 248, 248);  
+    background-color: rgb(240, 248, 248);  
+   
+    
+}
+
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+ul.topnav li {
+    float: left;
+    margin: 10px 10px 20px;
+    box-shadow: 1px 1px 1px rgb(244, 134, 94);
+    background-color: white;
+    border: 5px double rgb(244, 134, 94);
+}
+
+ul.topnav li:hover {
+    float: left;
+    margin: 10px 10px 20px;
+    box-shadow: 5px 5px 5px rgb(244, 134, 94);
+    background-color: white;
+    
+}
+ 
+  
+ul.topnav li a {
+    display: block;
+    color: rgb(244, 134, 94);
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: white solid 2px;
+}
+
+ul.topnav li a:hover {
+    color: rgb(244, 134, 94);
+}
+  
+  /* ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  ul.topnav li a.active {background-color: #04AA6D;} */
+  
+  /* ul.topnav li.right {float: right;} */
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
