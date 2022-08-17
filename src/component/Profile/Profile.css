@@ -1,3 +1,5 @@
+
+
 .profile-grid {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -41,6 +43,13 @@
     margin: 10px;
 
   }
+ 
+.fa-github {
+    background: #7c3fd7;
+    color: white;
+    margin: 5px;
+
+  }  
 
 .orange {
     color: rgb(244, 134, 94);
