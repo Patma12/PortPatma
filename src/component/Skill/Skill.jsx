@@ -1,5 +1,12 @@
 import './Skill.css'
 import html from '../../assets/image/html.png'
+import css from "../../assets/image/css.png"
+import javascript from "../../assets/image/javascript.png"
+import react from "../../assets/image/react.png" 
+import nodejs from "../../assets/image/nodejs.png" 
+import expressjs from "../../assets/image/expressjs.png"
+import python from "../../assets/image/python.png"
+import mongodb from "../../assets/image/mongodb.png"
 
 function Skill() {
     return (
@@ -7,14 +14,14 @@ function Skill() {
             <h2 className='container-box '>WHAT ABILITIES I CAN OFFER</h2>
             <div className='skill container-box '>
                 <img src={html} alt='html' />
-                {/* <img src="../src/assets/image/css.png" alt='css' />
-                <img src="../src/assets/image/javascript.png" alt='javascript' />
-                <img src="../src/assets/image/react.png" alt='react' />
-                <img src="../src/assets/image/nodejs.png" alt='nodejs' />
-                <img src="../src/assets/image/expressjs.png" alt='expressjs' />
-                <img src="../src/assets/image/python.png" alt='python' />
-                <img src="../src/assets/image/mongodb.png" alt='mongodb' />
-                 */}
+                <img src={css} alt='css' />
+                <img src={javascript} alt='javascript' />
+                <img src={react} alt='react' />
+                <img src={nodejs} alt='nodejs' />
+                <img src={expressjs} alt='expressjs' />
+                <img src={python} alt='python' />
+                <img src={mongodb} alt='mongodb' />
+                
             </div>
         </div>
     )

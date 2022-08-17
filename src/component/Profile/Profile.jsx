@@ -1,4 +1,5 @@
 import './Profile.css'
+import patma from "../../assets/image/patma.png"
 
 function Profile() {
     return (
@@ -13,7 +14,7 @@ function Profile() {
                     <a href=''><button className='fa-button'>get resume</button></a><a href="#" class="fa fa-facebook"></a><a href="https://www.linkedin.com/in/patma-mataa-287672248/" class="fa fa-linkedin"></a>
                 </div>
                 <div className=''>
-                    <img className='profile-image' src="../src/assets/image/patma.png"  alt="profile-image" />
+                    <img className='profile-image' src={patma}  alt="profile-image" />
                 </div>
                 <img />
                 
