@@ -1,0 +1,30 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* max-width: 300px; */
+
+    text-align: center;
+    font-family: arial;
+    border: 5px double rgb(244, 134, 94);
+    padding: 10px;
+    margin: 7px;
+    /* width: 35%; */
+    
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  .list-card {
+    display: inline-flex;
+  }
+  .border {
+    border: 4px dashed rgb(244, 134, 94);
+  }
+
+  button img {
+    width: 20px;
+   
+  }
+  

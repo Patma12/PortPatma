@@ -1,0 +1,19 @@
+.skill img {
+    width: 70px;
+    background-color: rgb(251, 249, 246);
+    border-radius: 50px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    box-shadow: 5px 5px 5px rgb(233, 230, 229);
+    display: inline-flex;
+}
+.skill img:hover {
+    background-color: rgb(240, 228, 222);
+}
+
+/* .container-box {
+    background-color: white;
+    padding: 30px;
+    margin: 0px;
+  
+} */

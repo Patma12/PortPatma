@@ -1,0 +1,20 @@
+.app_flex {
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+
+.imgq {
+    width: 270px;
+}
+.contact-flex {
+    display: inline-flex;
+    border: 5px dotted rgb(244, 134, 94);
+    border-radius: 30%;
+    padding: 60px;
+    background-color: rgba(242, 245, 246, 0.832);
+    margin: 20px;
+}
+
+
