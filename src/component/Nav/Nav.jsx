@@ -9,7 +9,6 @@ function Nav() {
         <ul className="topnav">
             <li><a href="#home">Home</a></li>
             <li><a href="#Project">Project</a></li>
-            <li><a href="#Abilities">Abilities</a></li>
             <li><a href="#Education">Education</a></li>
             <li><a href="#Experince">Experince</a></li>
             

@@ -19,12 +19,14 @@ function App() {
       
         <Profile /> 
         <hr /><br />
+
+        <Skill />
+        <br /><br />
         
         <Project /> 
         <br /><br />
 
-        <Skill />
-        <br /><br />
+       
         
         <Expereinces />
         {/* <br /><br />

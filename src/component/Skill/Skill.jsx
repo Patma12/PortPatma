@@ -11,7 +11,7 @@ import mongodb from "../../assets/image/mongodb.png"
 function Skill() {
     return (
         <div className='skill-box'>
-            <h2 className='container-box '>WHAT ABILITIES I CAN OFFER</h2>
+            <h2 className='container-box '>WHAT ABILITIES</h2>
             <div className='skill container-box '>
                 <img src={html} alt='html' />
                 <img src={css} alt='css' />

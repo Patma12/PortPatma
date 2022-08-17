@@ -72,16 +72,21 @@
 
   .fa-button{
     padding: 10px;
-    font-size: 19px;
+    font-size: 20px;
     /* width: 100px; */
     text-align: center;
     text-decoration: none;
+    border-radius: 0px;
     margin: 15px 12px;
+    background-color: tomato;
+    
+    
   }
 
   .fa-button:hover {
     background-color: white;
     color: tomato;
     box-shadow: 5px 5px 5px tomato;
+    border: 1px solid tomato;
 
   }
