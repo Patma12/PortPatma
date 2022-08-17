@@ -18,7 +18,7 @@ function Project() {
                 </div>  
 
                 <div className="card">
-                    <img className="card-image" src="./src/assets/image/jamming.png" alt="John" height="220px" />
+                    <img className="card-image" src={jamming} alt="John" height="220px" />
                     <h3>Jammming</h3>
                     <p>A website for users to create playlists in Spotify by searching music and adding to a new playlist. By using React, NPM, Surge, and Spotify API.</p>
                     <p><a href="https://jammingpatma.surge.sh/" ><button><img clasName="image-icon" src={github} /></button></a><button><img src={demoicon} /></button></p>
