@@ -20,6 +20,7 @@
 
 .profile-image {
     width: 250px;
+    padding-top: 50%;
 
 }
 
@@ -29,7 +30,7 @@
     color: rgb(244, 134, 94);
 }
 
-.fa-facebook {
+/* .fa-facebook {
     background: #3B5998;
     color: white;
     margin: 10px;
@@ -70,10 +71,10 @@
 
   }
 
-  .fa-button{
+  /* .fa-button{
     padding: 10px;
     font-size: 20px;
-    /* width: 100px; */
+    width: 100px;
     text-align: center;
     text-decoration: none;
     border-radius: 0px;
@@ -81,7 +82,7 @@
     background-color: tomato;
     
     
-  }
+  } */
 
   .fa-button:hover {
     background-color: white;
@@ -89,4 +90,9 @@
     box-shadow: 5px 5px 5px tomato;
     border: 1px solid tomato;
 
+  }
+  .p {
+    text-align: left;
+    margin-left: 1px;
+    
   }

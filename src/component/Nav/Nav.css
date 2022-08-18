@@ -21,15 +21,15 @@ ul.topnav {
   
 ul.topnav li {
     float: left;
-    margin: 10px 10px 20px;
+    margin: 5px 10px;
     box-shadow: 1px 1px 1px rgb(244, 134, 94);
-    background-color: white;
+    background-image: linear-gradient(to bottom right, rgb(250, 250, 249), rgb(248, 240, 232) );
     border: 5px double rgb(244, 134, 94);
 }
 
 ul.topnav li:hover {
     float: left;
-    margin: 10px 10px 20px;
+    margin: 5px 150x;
     box-shadow: 5px 5px 5px rgb(244, 134, 94);
     background-color: white;
     
@@ -48,13 +48,76 @@ ul.topnav li a {
 ul.topnav li a:hover {
     color: rgb(244, 134, 94);
 }
+
+
+
+.fa-facebook {
+    background:white;
+    color: tomato;
+    margin: 10px;
+    border: dashed 2px tomato;
+
+  }
   
-  /* ul.topnav li a:hover:not(.active) {background-color: #111;}
   
-  ul.topnav li a.active {background-color: #04AA6D;} */
+.fa-linkedin {
+    background:white;
+    color: tomato;
+    margin: 10px;
+    border: dashed 2px tomato;
+
+  }
+
+.fa-github {
+    background:white;
+    color: tomato;
+    margin: 10px;
+    border: dashed 2px tomato;
+
+  }  
+
+.orange {
+    color: rgb(244, 134, 94);
+}
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 7px 7px;
+  }
   
-  /* ul.topnav li.right {float: right;} */
+  .fa:hover {
+    background-color: white;
+    color: tomato;
+    box-shadow: 5px 5px 5px tomato;
+
+  }
+
+  .fa-button{
+    padding: 10px;
+    font-size: 20px;
+    /* width: 100px; */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0px;
+    margin: 7px 7px;
+    background-color: white;
+    border: 2px dashed tomato;
+    color:tomato
+    
+  }
+
+  .fa-button:hover {
+    background-color: white;
+    color: tomato;
+    box-shadow: 5px 5px 5px tomato;
+    border: 1px solid tomato;
+
+  }
   
+
   @media screen and (max-width: 600px) {
     ul.topnav li.right, 
     ul.topnav li {float: none;}

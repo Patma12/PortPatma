@@ -81,7 +81,7 @@
 
 .content2 {
   padding: 10px 20px;
-  background-color: white;
+  background-image: linear-gradient(to bottom right, rgb(250, 250, 249), rgb(250, 238, 234) );
   position: relative;
   border-radius: 6px;
   width: 100%;
