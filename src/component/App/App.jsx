@@ -14,23 +14,26 @@ import Nav from '../Nav/Nav';
 function App() {
   
   return (
+    
     <div className="App">
-      <Nav />
-      
+      <section>
+        <Nav />
+      </section>
+      <section id="home">
         <Profile /> 
         <hr /><br />
-
+        </section>
+        <section id='skill'>
         <Skill />
         <br /><br />
-        
+        </section>
+        <section id='project'>
         <Project /> 
         <br /><br />
-
-       
-        
+        </section> 
+        <section id='expereinced'>
         <Expereinces />
-        {/* <br /><br />
-        <Contact /> */}
+        </section>
     </div>  )
       
      
