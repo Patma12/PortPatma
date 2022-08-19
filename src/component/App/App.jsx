@@ -16,9 +16,9 @@ function App() {
   return (
     
     <div className="App">
-      <section>
+      
         <Nav />
-      </section>
+      
       <section id="home">
         <Profile /> 
         <hr /><br />
