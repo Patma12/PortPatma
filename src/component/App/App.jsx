@@ -27,13 +27,16 @@ function App() {
         <Skill />
         <br /><br />
         </section>
+        
+        <section id='expereince'>
+        <Expereinces />
+        </section>
+
         <section id='project'>
         <Project /> 
         <br /><br />
         </section> 
-        <section id='expereinced'>
-        <Expereinces />
-        </section>
+        
     </div>  )
       
      
