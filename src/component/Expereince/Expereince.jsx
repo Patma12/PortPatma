@@ -1,9 +1,11 @@
 import "./Expereince.css";
+import generation from "../../assets/image/generation.jpg";
 import uncle2 from "../../assets/image/uncle2.jpg";
 import rpu from "../../assets/image/rpu.jpg";
 import generation2 from "../../assets/image/generation.jpg";
 import workmate from "../../assets/image/workmate.jpg";
 import rid17 from "../../assets/image/rid17.jpg";
+import tele from "../../assets/image/tele.jpg";
 import trancosmos from "../../assets/image/trancosmos.jpg";
 import jemies from "../../assets/image/jemies.jpg";
 
@@ -71,12 +73,13 @@ function Expereinces() {
 
           <div className="container right">
             <div className="content">
-              <img src={workmate} alt="workmate" width="50px" />
               <h4>
-                🚩 Call center | Nov 2023 - une 2024 <br />
+                🚩 Call center | Nov 2023 - June 2024 <br />
                 AWP Services (Thailand) Co., Ltd.(Bangkok){" "}
               </h4>
+
               <p>
+                {" "}
                 Collaborated with team members to achieve target results,create,
                 verify and update shop details and menu into backend server.and
                 translate menu
@@ -112,7 +115,7 @@ function Expereinces() {
             </div>
           </div>
 
-          <div className="container right">
+          {/* <div className="container right">
             <div className="content">
               <img src={tele} alt="tele" width="70px" />
               <h4>
@@ -126,7 +129,7 @@ function Expereinces() {
                 creating welcoming, positive experiences.
               </p>
             </div>
-          </div>
+          </div> */}
           <div className="container right">
             <div className="content">
               <img src={trancosmos} alt="trancosmos" width="70px" />
