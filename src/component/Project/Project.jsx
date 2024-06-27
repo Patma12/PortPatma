@@ -13,8 +13,8 @@ function Project() {
                 
                 <div className="card">
                     <img className="card-image" src={con} alt="John" height="220px" />
-                    <h3>Jammming</h3>
-                    <p>A website for users to create playlists in Spotify by searching music and adding to a new playlist. By using React, NPM, Surge, and Spotify API.</p>
+                    <h3>โครงการก่อสร้างชลประทานที่ 17</h3>
+                    <p>เว็บไซต์โครงการก่อร้าง สำนักงานชลประทานที่ 17 สร้างโดย HTML CSS และ BOOTSTRAB </p>
                     <p><a href="http://irrigation.rid.go.th/rid17/Construction17/home.html" ><button><img className="image-icon" src={github} /></button></a> <a href="https://jammingpatma.surge.sh/"><button><img src={demoicon} /></button></a></p>
                 </div>  
 
