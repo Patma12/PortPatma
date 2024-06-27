@@ -1,5 +1,5 @@
 import './Project.css'
-import const from "../../assets/image/const.png"
+import con from "../../assets/image/const.png"
 import github from "../../assets/image/github.svg"
 import demoicon from '../../assets/image/demoicon.png'
 import offit from '../../assets/image/offit.png'
@@ -12,7 +12,7 @@ function Project() {
             <div className='list-card'>
                 
                 <div className="card">
-                    <img className="card-image" src={const} alt="John" height="220px" />
+                    <img className="card-image" src={con} alt="John" height="220px" />
                     <h3>Jammming</h3>
                     <p>A website for users to create playlists in Spotify by searching music and adding to a new playlist. By using React, NPM, Surge, and Spotify API.</p>
                     <p><a href="http://irrigation.rid.go.th/rid17/Construction17/home.html" ><button><img className="image-icon" src={github} /></button></a> <a href="https://jammingpatma.surge.sh/"><button><img src={demoicon} /></button></a></p>
