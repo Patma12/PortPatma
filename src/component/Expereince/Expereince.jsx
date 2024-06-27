@@ -80,9 +80,9 @@ function Expereinces() {
 
               <p>
                 {" "}
-                Collaborated with team members to achieve target results,create,
-                verify and update shop details and menu into backend server.and
-                translate menu
+                Delivered exceptional customer service to every customer by
+                leveraging extensive knowledge of products and services and
+                creating welcoming, positive experiences.
               </p>
             </div>
           </div>
