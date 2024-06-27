@@ -71,7 +71,7 @@ function Expereinces() {
 
           <div className="container right">
             <div className="content">
-              
+              <img src={workmate} alt="workmate" width="50px" />
               <h4>
                 🚩 Call center | Nov 2023 - une 2024 <br />
                 AWP Services (Thailand) Co., Ltd.(Bangkok){" "}
@@ -112,7 +112,21 @@ function Expereinces() {
             </div>
           </div>
 
-          
+          <div className="container right">
+            <div className="content">
+              <img src={tele} alt="tele" width="70px" />
+              <h4>
+                🚩 Call Center Agent | May 2020 - Oct 2020
+                <br />
+                Teleinfomidia, Bangkok{" "}
+              </h4>
+              <p>
+                Delivered exceptional customer service to every customer by
+                leveraging extensive knowledge of products and services and
+                creating welcoming, positive experiences.
+              </p>
+            </div>
+          </div>
           <div className="container right">
             <div className="content">
               <img src={trancosmos} alt="trancosmos" width="70px" />
